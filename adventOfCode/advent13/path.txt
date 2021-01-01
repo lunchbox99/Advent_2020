@@ -1,0 +1,4 @@
+path
+F:/Slow/programming/FreeBASIC-1.05.0-win64
+./fbc -v F:/Slow/programming/FreeBASIC-1.05.0-win64/adventOfCode/Advent13/part2_13.bas
+./adventOfCode/Advent13/part2_13.exe

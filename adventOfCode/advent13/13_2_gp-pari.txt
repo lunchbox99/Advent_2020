@@ -1,0 +1,17 @@
+ PARI / GP
+
+? chinese
+chinese(x,{y}): x,y being both intmods (or polmods) computes z in the same
+residue classes as x and y.
+
+ chivec(residues, moduli)={
+  my(m=Mod(0,1));
+  for(i=1,#residues,
+    m=chinese(Mod(residues[i],moduli[i]),m)
+  );
+  lift(m)
+};
+
+ chivec([0,28,20,456,3,11,6,319,3], [23,41,37,479,13,17,29,373,19])
+
+

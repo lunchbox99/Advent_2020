@@ -1,0 +1,4 @@
+path
+C:/Programming/FreeBASIC
+./fbc -v C:/Programming/FreeBASIC/projects/Advent13/part1_13.bas
+./projects/Advent13/part1_13.exe
